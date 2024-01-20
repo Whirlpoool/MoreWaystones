@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "more_waystones",
+  "version": "${version}",
+  "name": "More Waystones",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/Leo Bulatewicz/More Waystones"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/more_waystones/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "whirlpool.more_waystones.client.MoreWaystonesClient"
+    ],
+    "main": [
+      "whirlpool.more_waystones.MoreWaystones"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
