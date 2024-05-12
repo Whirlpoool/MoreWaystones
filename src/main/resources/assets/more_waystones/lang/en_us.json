@@ -1,3 +1,4 @@
 {
-  "block.more_waystones.ice_waystone": "Ice Waystone"
+  "block.more_waystones.ice_waystone": "Ice Waystone",
+  "itemGroup.more_waystones.more_waystones_itemgroup" : "More Waystones"
 }

@@ -1,5 +1,5 @@
 plugins {
-    id 'fabric-loom' version '1.2-SNAPSHOT'
+    id 'fabric-loom' version '1.6-SNAPSHOT'
     id 'maven-publish'
 }
 
@@ -9,11 +9,10 @@ group = project.maven_group
 repositories {
     maven {
         url "https://cursemaven.com"
-        content {
-            includeGroup "curse.maven"
-        }
     }
-    maven { url 'https://maven.wispforest.io' }
+    maven {
+          url "https://maven.wispforest.io"
+    }
 }
 
 dependencies {
@@ -22,9 +21,9 @@ dependencies {
     mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
     modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
-    modImplementation "curse.maven:fabricwaystones-410902:4426434"
+    modImplementation "curse.maven:fabricwaystones-410902:4950461"
     implementation 'org.jetbrains:annotations:22.0.0'
-    annotationProcessor (modImplementation "io.wispforest:owo-lib:${project.owo_version}")
+    modImplementation "io.wispforest:owo-lib:${project.owo_version}"
     include "io.wispforest:owo-sentinel:${project.owo_version}"
 }
 
