@@ -29,6 +29,7 @@ public final class ItemRegistry {
             return;
         }
         registerItem("ice_waystone", new WaystoneItem(BlockRegistry.ICE_WAYSTONE, new FabricItemSettings()));
+        registerItem("prismarine_waystone", new WaystoneItem(BlockRegistry.PRISMARINE_WAYSTONE, new FabricItemSettings()));
     }
 
     public static Item get(String id) {

@@ -17,6 +17,7 @@ import java.util.HashMap;
 public class BlockRegistry {
 
     public static final Block ICE_WAYSTONE = new WaystoneBlock(FabricBlockSettings.create().mapColor(MapColor.STONE_GRAY).requiresTool().nonOpaque().strength(FabricWaystones.CONFIG.waystone_block_hardness(), 3600000));
+    public static final Block PRISMARINE_WAYSTONE = new WaystoneBlock(FabricBlockSettings.create().mapColor(MapColor.STONE_GRAY).requiresTool().strength(FabricWaystones.CONFIG.waystone_block_hardness(), 3600000));
     public static final HashMap<String, Block> WAYSTONE_BLOCKS = new HashMap<>();
     private static Identifier miningLevelTag;
 
@@ -30,6 +31,7 @@ public class BlockRegistry {
         });
 
         registerAndAdd("ice_waystone", ICE_WAYSTONE);
+        registerAndAdd("prismarine_waystone", PRISMARINE_WAYSTONE);
     }
 
     private static void registerAndAdd(String id, Block block) {

@@ -15,6 +15,7 @@ public class MoreWaystonesGroup {
             .displayName(Text.translatable("itemGroup.more_waystones.more_waystones_itemgroup"))
             .entries((context, entries) -> {
                 entries.add(BlockRegistry.ICE_WAYSTONE);
+                entries.add(BlockRegistry.PRISMARINE_WAYSTONE);
             })
             .build();
     static {
