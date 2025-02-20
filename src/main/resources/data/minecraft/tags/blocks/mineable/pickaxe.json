@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "more_waystones:ice_waystone",
-    "more_waystones:prismarine_waystone"
+    "more_waystones:prismarine_waystone",
+    "more_waystones:pokeball_waystone"
   ]
 }

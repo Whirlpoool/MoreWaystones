@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#A#",
+    "#E#",
+    "POP"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:red_dye"
+    },
+    "P": {
+      "item": "minecraft:iron_ingot"
+    },
+    "A": {
+      "item": "fwaystones:abyss_watcher"
+    },
+    "E": {
+      "item": "minecraft:emerald"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "result": {
+    "item": "more_waystones:pokeball_waystone",
+    "count": 1
+  }
+}

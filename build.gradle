@@ -7,12 +7,8 @@ version = project.mod_version
 group = project.maven_group
 
 repositories {
-    maven {
-        url "https://cursemaven.com"
-    }
-    maven {
-          url "https://maven.wispforest.io"
-    }
+    maven { url = "https://cursemaven.com" }
+    maven { url = "https://maven.wispforest.io" }
 }
 
 dependencies {

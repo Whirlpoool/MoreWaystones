@@ -30,6 +30,7 @@ public final class ItemRegistry {
         }
         registerItem("ice_waystone", new WaystoneItem(BlockRegistry.ICE_WAYSTONE, new FabricItemSettings()));
         registerItem("prismarine_waystone", new WaystoneItem(BlockRegistry.PRISMARINE_WAYSTONE, new FabricItemSettings()));
+        registerItem("pokeball_waystone", new WaystoneItem(BlockRegistry.POKEBALL_WAYSTONE, new FabricItemSettings()));
     }
 
     public static Item get(String id) {
